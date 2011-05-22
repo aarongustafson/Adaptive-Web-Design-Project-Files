@@ -1,0 +1,73 @@
+/* -----------------------------------------------
+ * Retreats 4 Geeks - Retreat.js 2010
+ * Stylesheet for IE <= 8
+ * Created by Easy! Designs, LLC
+ * http://easy-designs.net
+ * ----------------------------------------------- */
+
+/* =General */
+label {
+	padding-top: 6px;
+}
+.focal {
+	margin-bottom: 40px;
+}
+form .frame {
+  margin-bottom: 60px;
+}
+form .frame .inner {
+  top: 10px;
+}
+#top h1 {
+	top: -42px;
+	left: 10%;
+	height: 133px;
+}
+#mobile-nav {
+	background:  url(../i/c/mobile-nav.png) center bottom no-repeat;
+	display: block;
+	padding: 90px 10px 17px;
+	width: 295px;
+	position: absolute;
+	top: 0;
+	right: 10%;
+}
+#mobile-nav select {
+	width: 280px;
+}
+
+
+/* =Filters */
+.frame {
+	filter: progid:DXImageTransform.Microsoft.Matrix( M11=0.9961946980917455, M12=0.08715574274765817, M21=-0.08715574274765817, M22=0.9961946980917455, SizingMethod="auto expand" );
+	position: relative;
+}
+.frame .inner {
+  filter: progid:DXImageTransform.Microsoft.Matrix( M11=0.9998476951563913, M12=-0.01745240643728351, M21=0.01745240643728351, M22=0.9998476951563913, SizingMethod="auto expand" ), progid:DXImageTransform.Microsoft.Glow( color=#999999, direction=270, strength=4 );
+  position: relative;
+  top: 3px;
+  left: 0;
+}
+.double .matte-1, .double .matte-2 {
+	filter: progid:DXImageTransform.Microsoft.Matrix( M11=0.9961946980917455, M12=0.08715574274765817, M21=-0.08715574274765817, M22=0.9961946980917455, SizingMethod="auto expand" );
+}
+.double img {
+  filter: progid:DXImageTransform.Microsoft.Matrix( M11=0.9998476951563913, M12=-0.01745240643728351, M21=0.01745240643728351, M22=0.9998476951563913, SizingMethod="auto expand" ), progid:DXImageTransform.Microsoft.Glow( color=#999999, direction=270, strength=4 );
+}
+.focal .inner {
+	top: 8px;
+	left: 3px;
+}
+#registration .inner {
+	top: 8px;
+}
+#location figcaption {
+	bottom: -40px;
+}
+#contact fieldset {
+	filter: progid:DXImageTransform.Microsoft.Glow( color=#999999, direction=270, strength=4 );
+}
+#nav-register .sold-out {
+	filter: progid:DXImageTransform.Microsoft.Matrix( M11=0.9781476007338057, M12=0.20791169081775934, M21=-0.20791169081775934, M22=0.9781476007338057, SizingMethod="auto expand" );
+	bottom: 20px;
+}

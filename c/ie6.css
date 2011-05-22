@@ -1,0 +1,57 @@
+/* -----------------------------------------------
+ * Retreats 4 Geeks - Retreat.js 2010
+ * Stylesheet for IE <= 7
+ * Created by Easy! Designs, LLC
+ * http://easy-designs.net
+ * ----------------------------------------------- */
+
+#top, nav {
+	width: 100%;
+}
+nav {
+  height: 0;
+}
+#ornament-1 { width: 100%; }
+#location figcaption {
+	width: 350px;
+}
+.checkbox input, .radio input {
+	border-width: 0;
+}
+input.other {
+	border-width: 1px;
+	width: 120px;
+}
+
+#top h1 {
+	background: top left no-repeat;
+	display: block;
+	height: 0;
+	padding-top: 133px;
+	overflow: hidden;
+}
+.double { position: relative; }
+
+/* =PNGs */
+/* Spring */
+.spring #top h1 { background-image: url(../i/c/spring/logo-8.png); }
+.spring ul li { background-image: url(../i/c/spring/bullet-8.png); }
+.spring legend span {	background-image: url(../i/c/spring/sunflower-8.png); }
+.spring .buttons button { background-image: url(../i/c/spring/checkout-8.png); }
+.spring dl.vevent .summary, .spring .vevent .dates { background-image: url(../i/c/spring/sunflower-8.png); }
+.spring .events .dates { background-image: url(../i/c/spring/sunflower-small-8.png); }
+.spring #main-nav { background-image: url(../i/c/spring/main-nav-8.png);	}
+.spring #nav-register, .spring #top .return { background-image: url(../i/c/spring/return-8.png);	}
+.spring #nav-register { background-image: url(../i/c/spring/nav-register-8.png); }
+.spring #nav-register .remaining { background-image: url(../i/c/spring/nav-remaining-8.png); }
+.spring #nav-register .sold-out { background-image: url(../i/c/spring/nav-remaining-full-8.png); }
+.spring #bottom { background-image: url(../i/c/spring/log-8.png); }
+.spring #ornament-2 { background-image: url(../i/c/spring/wormie-8.png); }
+.spring #ornament-4 { background-image: url(../i/c/spring/leaves_fg-8.png); }
+.spring #ornament-1 { background-image: url(../i/c/spring/leaves_bg-8.png); }
+
+.fancybox-ie #fancybox-title {
+	background: transparent;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='fancy_title_over.png', sizingMethod='scale');
+	zoom: 1;
+}

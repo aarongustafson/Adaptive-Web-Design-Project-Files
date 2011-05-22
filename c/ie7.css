@@ -1,0 +1,82 @@
+<?php header('Content-Type: text/css'); ?>
+
+/* -----------------------------------------------
+ * Retreats 4 Geeks - Retreat.js 2010
+ * Stylesheet for IE <= 7
+ * Created by Easy! Designs, LLC
+ * http://easy-designs.net
+ * ----------------------------------------------- */
+
+#top h1 {
+	top: 0;
+	z-index: 112;
+}
+html {
+	background: rgb(152, 224, 239) url(../i/c/day.jpg) bottom center repeat-x;
+}
+article {
+	height: 1%;
+}
+legend span {
+	width: 71.5%;
+}
+.checkbox, .radio {
+	padding-bottom: 5px;
+}
+.confirm input {
+	border: 0;
+}
+.checkbox legend,
+.radio legend {
+	position: relative;
+	overflow: visible;
+	margin: 0 0 -6px;
+}
+.checkbox legend span,
+.radio legend span {
+  font-size: 1em;
+  position: absolute;
+  right: 10px;
+}
+.frame {
+	background: transparent;
+	filter: none;
+  position: static;
+}
+.frame .inner {
+	filter: progid:DXImageTransform.Microsoft.Glow( color=#999999, direction=270, strength=4 );
+  position: static;
+}
+#location figcaption {
+	bottom: -15px;
+}
+#contact fieldset {
+	position: relative;
+}
+#contact form ol {
+	overflow: visible;
+	position: absolute;
+	top: 20px;
+	bottom: 10px;
+	left: 20px;
+	right: 10px;
+}
+#contact .buttons {
+	width: 49%;
+	text-align: right;
+}
+#contact button {
+	margin: 0;
+}
+#contact button:hover strong {
+	visibility: hidden;
+}
+.remaining {
+	left: 5px;
+}
+.failure a:link, .failure a:visited {
+	color: #fff;
+}
+#ornament-1 { z-index: 1; }
+#top { z-index: 2; }
+#main-nav li { margin: 0; }

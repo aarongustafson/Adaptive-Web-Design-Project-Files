@@ -1,0 +1,71 @@
+/* -----------------------------------------------
+ * Retreats 4 Geeks - Retreat.js 2010
+ * Stylesheet for IE 9
+ * Created by Easy! Designs, LLC
+ * http://easy-designs.net
+ * ----------------------------------------------- */
+
+/* =General */
+label {
+	padding-top: 4px;
+}
+
+/* =Filters */
+.frame {
+	filter: progid:DXImageTransform.Microsoft.Matrix( M11=0.9961946980917455, M12=0.08715574274765817, M21=-0.08715574274765817, M22=0.9961946980917455, SizingMethod="auto expand" );
+	position: relative;
+	left:  -10px;
+}
+.focal {
+	margin-bottom: 40px;
+}
+.frame .inner {
+  filter: progid:DXImageTransform.Microsoft.Matrix( M11=0.9998476951563913, M12=-0.01745240643728351, M21=0.01745240643728351, M22=0.9998476951563913, SizingMethod="auto expand" );
+  position: relative;
+  top: 6px;
+  left: 10px;
+}
+.focal .inner {
+	top: 12px;
+}
+.double .matte-1, .double .matte-2 {
+	filter: progid:DXImageTransform.Microsoft.Matrix( M11=0.9961946980917455, M12=0.08715574274765817, M21=-0.08715574274765817, M22=0.9961946980917455, SizingMethod="auto expand" );
+}
+.double img {
+  filter: progid:DXImageTransform.Microsoft.Matrix( M11=0.9998476951563913, M12=-0.01745240643728351, M21=0.01745240643728351, M22=0.9998476951563913, SizingMethod="auto expand" ), progid:DXImageTransform.Microsoft.Glow( color=#999999, direction=270, strength=4 );
+}
+form .frame {
+  margin-bottom: 60px;
+}
+form .frame .inner {
+  top: 20px;
+  left: 8px;
+}
+#registration .inner {
+	top: 12px;
+	left: 3px;
+}
+#location figcaption {
+	margin: 0;
+	width: auto;
+	left: 0;
+	right: 0;
+	bottom: -40px;
+}
+#nav-register .sold-out {
+	filter: progid:DXImageTransform.Microsoft.Matrix( M11=0.9781476007338057, M12=0.20791169081775934, M21=-0.20791169081775934, M22=0.9781476007338057, SizingMethod="auto expand" );
+	bottom: 20px;
+}
+@media screen and (min-width:1025px) {
+	#nav-register b {
+		filter: progid:DXImageTransform.Microsoft.Matrix( M11=0.9902680687415704, M12=-0.13917310096006544, M21=0.13917310096006544, M22=0.9902680687415704, SizingMethod="auto expand" );
+		top: 35px;
+	}
+	#nav-register .remaining {
+		progid:DXImageTransform.Microsoft.Matrix( M11=0.9975640502598242, M12=0.0697564737441253, M21=-0.0697564737441253, M22=0.9975640502598242, SizingMethod="auto expand" );
+	}
+	#nav-register .sold-out {
+		top: 55px;
+		bottom: auto;
+	}
+}
