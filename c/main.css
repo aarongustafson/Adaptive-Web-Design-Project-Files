@@ -1287,6 +1287,7 @@ embed[type$=x-safari-validator] {
 	#event #ornament-4,
 	#event #ornament-1 {
 		position: fixed;
+		z-index:5;
 	}
 	#top h1 {
 		left: 50%;
